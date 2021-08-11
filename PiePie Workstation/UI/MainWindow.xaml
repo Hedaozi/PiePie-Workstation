@@ -116,7 +116,7 @@
                         <Fluent:StartScreenTabControl.RightContent>
                             <StackPanel>
                                 <TextBlock Text="Welcome to PiePie Workstation!" FontSize="28" Margin="20"/>
-                                <TextBlock Text="Please click 'Start' or press 'Esc' to entry the workstation." TextWrapping="Wrap" FontSize="28" Margin="20 0 20 0"/>
+                                <TextBlock Text="Please click 'Start' or press 'Esc' to enter the workstation." TextWrapping="Wrap" FontSize="28" Margin="20 0 20 0"/>
                             </StackPanel>
                         </Fluent:StartScreenTabControl.RightContent>
                     </Fluent:StartScreenTabControl>
