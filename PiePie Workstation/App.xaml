@@ -1,0 +1,21 @@
+﻿<Application x:Class="PiePie_Workstation.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:PiePie_Workstation"
+             StartupUri="UI/MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="UI/Style/GlobalSettings.xaml"/>
+                <ResourceDictionary Source="UI/Style/Common.xaml"/>
+                <ResourceDictionary Source="UI/Style/IconButton.xaml"/>
+                <ResourceDictionary Source="UI/Style/Navigator.xaml"/>
+                <ResourceDictionary Source="UI/Style/StartScreen.xaml"/>
+                <ResourceDictionary Source="UI/Style/StylesList.xaml"/>
+                <ResourceDictionary Source="UI/Icons/Icons.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/Fluent;Component/Themes/Generic.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/Fluent;Component/Themes/Themes/Light.Crimson.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

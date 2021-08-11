@@ -1,0 +1,44 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:PiePie_Workstation">
+
+    <XmlDataProvider x:Key="BaseColors" XPath="Colors" IsAsynchronous="False">
+        <x:XData>
+            <Colors xmlns="">
+                <Color Name="Light"/>
+                <Color Name="Dark"/>
+            </Colors>
+        </x:XData>
+    </XmlDataProvider>
+
+    <XmlDataProvider x:Key="ColorSchemes" XPath="Colors" IsAsynchronous="False">
+        <x:XData>
+            <Colors xmlns="">
+                <Color Name="Red"/>
+                <Color Name="Green"/>
+                <Color Name="Blue"/>
+                <Color Name="Purple"/>
+                <Color Name="Orange"/>
+                <Color Name="Lime"/>
+                <Color Name="Emerald"/>
+                <Color Name="Teal"/>
+                <Color Name="Cyan"/>
+                <Color Name="Cobalt"/>
+                <Color Name="Indigo"/>
+                <Color Name="Violet"/>
+                <Color Name="Pink"/>
+                <Color Name="Magenta"/>
+                <Color Name="Crimson"/>
+                <Color Name="Amber"/>
+                <Color Name="Yellow"/>
+                <Color Name="Brown"/>
+                <Color Name="Olive"/>
+                <Color Name="Steel"/>
+                <Color Name="Mauve"/>
+                <Color Name="Taupe"/>
+                <Color Name="Sienna"/>
+            </Colors>
+        </x:XData>
+    </XmlDataProvider>
+
+</ResourceDictionary>

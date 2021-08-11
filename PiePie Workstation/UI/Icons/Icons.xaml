@@ -1,0 +1,27 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Viewbox x:Key="AccountIcon">
+        <Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Width="96" Height="96">
+            <Canvas.Resources>
+                <RectangleGeometry xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="clip0" Rect="0, 0, 96, 96"/>
+            </Canvas.Resources>
+            <Canvas Clip="{StaticResource clip0}">
+                <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Fill="{DynamicResource AccentBaseBrush}" Data="M64 30C64 38.8366 56.8366 46 48 46 39.1634 46 32 38.8366 32 30 32 21.1634 39.1634 14 48 14 56.8366 14 64 21.1634 64 30Z"/>
+                <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Fill="{DynamicResource AccentBaseBrush}" Data="M80 82 80 66C80 63.6 78.8 61.2 76.8 59.6 72.4 56 66.8 53.6 61.2 52 57.2 50.8 52.8 50 48 50 43.6 50 39.2 50.8 34.8 52 29.2 53.6 23.6 56.4 19.2 59.6 17.2 61.2 16 63.6 16 66L16 82 80 82Z"/>
+            </Canvas>
+        </Canvas>
+    </Viewbox>
+
+    <Viewbox x:Key="HelpIcon">
+        <Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Width="96" Height="96">
+            <Canvas.Resources>
+                <RectangleGeometry xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="clip0" Rect="0, 0, 96, 96"/>
+            </Canvas.Resources>
+            <Canvas Clip="{StaticResource clip0}">
+                <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Fill="{DynamicResource AccentBaseBrush}" Data="M48 10C27 10 10 27 10 48 10 69 27 86 48 86 69 86 86 69 86 48 86 27 69 10 48 10ZM48 76C45.2 76 43 73.8 43 71 43 68.2 45.2 66 48 66 50.8 66 53 68.2 53 71 53 73.8 50.8 76 48 76ZM51 52.8C51 55.4 51 62 51 62L45 62 45 47 48 47C54.7 47 59 43.1 59 37 59 30.7 54.3 26 48 26 41.1 26 37 30.1 37 37L31 37C31 26.8 37.8 20 48 20 57.5 20 65 27.5 65 37 65 45.5 59.4 51.6 51 52.8Z"/>
+            </Canvas>
+        </Canvas>
+    </Viewbox>
+
+</ResourceDictionary>

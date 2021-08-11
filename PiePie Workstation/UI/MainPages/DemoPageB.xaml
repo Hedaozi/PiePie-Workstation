@@ -1,0 +1,12 @@
+﻿<Page x:Class="PiePie_Workstation.UI.MainPages.DemoPageB"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PiePie_Workstation.UI.MainPages"
+      mc:Ignorable="d"
+      FontFamily="{DynamicResource GlobalFontFamily}" FontSize="16">
+    <Grid>
+        <TextBlock Text="Something here" FontSize="28" Margin="20"/>
+    </Grid>
+</Page>
